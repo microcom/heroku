@@ -68,6 +68,11 @@
 		            <stripVersion>true</stripVersion>
 		          </configuration>
 		        </execution>
+		        <execution>
+		         <goals>
+		            <goal>copy-dependencies</goal>
+		          </goals>
+		        </execution>
 		      </executions>
 		    </plugin>
 		  </plugins>
