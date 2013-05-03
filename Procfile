@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* com.example.Main -javaagent:/target/dependency/newrelic-agent.jar
+web: java -cp target/classes:target/dependency/* com.example.Main -javaagent:target/dependency/newrelic-agent.jar
