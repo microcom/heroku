@@ -82,7 +82,7 @@
 			            <destFileName>newrelic</destFileName>
 			          </artifactItem>
 			        </artifactItems>
-			        <outputDirectory>target/dependency/</outputDirectory>
+			        <outputDirectory>/</outputDirectory>
 			      </configuration>
 			    </execution>
 		      
