@@ -1,1 +1,1 @@
-web:  java -jar target/dependency/newrelic/newrelic.jar install && java -cp target/classes:target/dependency/* com.example.Main -javaagent:target/dependency/newrelic/newrelic.jar
+web: java -cp target/classes:target/dependency/* com.example.Main -javaagent:target/dependency/newrelic/newrelic.jar
