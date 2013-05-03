@@ -13,7 +13,7 @@ common: &default_settings
   # account.  This key binds your Agent's data to your account in the
   # New Relic service.
 
-  license_key: my_license_key
+  license_key: 7d4cfe4cdb4a28c24e05ec409269e7b20f08f7ea
 
   # Agent Enabled
   # Use this setting to force the agent to run or not run.
@@ -44,7 +44,7 @@ common: &default_settings
   # app_name: My Application;My Application 2
   # This setting is required.
 
-  app_name: My Application
+  app_name: contactheroku
 
   # The agent uses its own log file to keep its logging separate from
   # that of your application.  Specify the log level here.  This
