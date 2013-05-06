@@ -12,6 +12,6 @@ public class ContactService {
 	@GET()
 	@Produces("application/json; charset=UTF-8")
 	public Contact sayHello() {
-		return new Contact("Massi", "AZAMOUM", "rue jean-talon", "H2L 1X7");
+		return new Contact("Massi", "AZAMOUM", "rue jean-talon", "Montréal", "QC", "H2L 1X7");
 	}
 }
