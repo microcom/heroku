@@ -6,63 +6,55 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Contact {
 
-	private String firstName ;
-	private String lastName ;
-	private String street;
-	private String city ;
+	private String prenom ;
+	private String nom ;
+	private String rue;
+	private String ville ;
 	private String province ;
-	private String postalCode ;
+	private String codePostal ;
 	
 	public Contact(){}
 	
 	public Contact(String firstName, String lastName, String street,
 			String city, String province, String postalCode) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.street = street;
-		this.city = city;
+		this.prenom = firstName;
+		this.nom = lastName;
+		this.rue = street;
+		this.ville = city;
 		this.province = province;
-		this.postalCode = postalCode;
+		this.codePostal = postalCode;
 	}
 
-	public String getFirstName() {
-		return firstName;
+	public String getPrenom() {
+		return prenom;
 	}
 
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
 	}
 
-	public String getLastName() {
-		return lastName;
+	public String getNom() {
+		return nom;
 	}
 
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
+	public void setNom(String nom) {
+		this.nom = nom;
 	}
 
-	public String getPostalCode() {
-		return postalCode;
+	public String getRue() {
+		return rue;
 	}
 
-	public void setPostalCode(String postalCode) {
-		this.postalCode = postalCode;
+	public void setRue(String rue) {
+		this.rue = rue;
 	}
 
-	public String getStreet() {
-		return street;
+	public String getVille() {
+		return ville;
 	}
 
-	public void setStreet(String street) {
-		this.street = street;
-	}
-
-	public String getCity() {
-		return city;
-	}
-
-	public void setCity(String city) {
-		this.city = city;
+	public void setVille(String ville) {
+		this.ville = ville;
 	}
 
 	public String getProvince() {
@@ -72,5 +64,15 @@ public class Contact {
 	public void setProvince(String province) {
 		this.province = province;
 	}
+
+	public String getCodePostal() {
+		return codePostal;
+	}
+
+	public void setCodePostal(String codePostal) {
+		this.codePostal = codePostal;
+	}
+	
+	
 	
 }
